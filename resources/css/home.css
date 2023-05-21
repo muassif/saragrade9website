@@ -9,6 +9,7 @@ body {
 a {
   text-decoration: none;
 }
+
 nav {
   background-color: white;
   padding: 0.9rem;
@@ -25,7 +26,7 @@ nav {
 }
 
 .logo {
-  color: #c8a184;
+  color: #806c59;
   font-size: 1.5rem;
   font-style: italic;
   padding: 0 1rem;
@@ -89,8 +90,8 @@ body {
 
 h1 {
   position: relative;
-  top: 26rem;
-  left: 10px;
+  top: 4rem;
+  left: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,6 +275,81 @@ h3 {
 }
 
 footer {
+  border-top: solid 0.6px rgba(80, 60, 41, 0.666);
+  padding-top: 2rem;
+  height: 16rem;
   margin-top: 38rem;
-  
+  list-style: none;
+  display: flex;
+  padding-bottom: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+#foot-logo-pic {
+  width: 23%;
+  height: 18%;
+}
+
+.logo-col {
+  padding-top: 1rem;
+  position: relative;
+  width: 50%;
+}
+
+.foot-logo {
+  position: relative;
+  left: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.foot-social-icons {
+  position: relative;
+  width: 6%;
+  height: auto;
+  margin-top: 1rem;
+  left: 17.5rem;
+  bottom: 5rem;
+}
+
+#foot-logo-name {
+  font-size: 38px;
+  color: #806c59;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #503c29dc;
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.contact-col {
+  position: relative;
+  width: 20%;
+}
+
+.company-col {
+  position: relative;
+  width: 20%;
+  margin-left: 3rem;
+}
+
+.useful-col {
+  position: relative;
+  width: 20%;
+}
+
+.footer-link {
+  text-align: left;
+  padding-bottom: 10px;
+  display: block;
+  position: relative;
+  right: 8px;
+  color: #b69882;
 }

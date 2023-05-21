@@ -170,34 +170,34 @@ body {
 }
 
 .main-part li:nth-child(1) {
-  background: url(../images/page3/page3-1.jpg);
+  background: url(../images/page3/slider2.jpg);
   background-size: cover;
   background-position: left;
   border-radius: 1rem;
 }
 
 .main-part li:nth-child(2) {
-  background: url(../images/page3/page3-2.jpg);
+  background: url(../images/page3/slider7.jpg);
   background-size: cover;
   background-position: left;
 }
 .main-part li:nth-child(3) {
-  background: url(../images/page3/page3-3.jpg);
+  background: url(../images/page3/slider5.jpg);
   background-size: cover;
   background-position: left;
 }
 .main-part li:nth-child(4) {
-  background: url(../images/page3/page3-4.jpg);
+  background: url(../images/page3/slider4.jpg);
   background-size: cover;
   background-position: left;
 }
 .main-part li:nth-child(5) {
-  background: url(../images/page3/page3-5.jpg);
+  background: url(../images/page3/slider6.jpg);
   background-size: cover;
   background-position: left;
 }
 .main-part li:nth-child(6) {
-  background: url(../images/page3/page3-6.jpg);
+  background: url(../images/page3/slider1.jpg);
   background-size: cover;
   background-position: left;
 }
@@ -230,7 +230,7 @@ body {
 .last-box {
   position: relative;
   top: 36rem;
-  padding: 2rem;
+  padding: 5rem;
   border-top-color: #eedcce;
   padding-bottom: 0;
 }
@@ -256,9 +256,9 @@ hr {
 
 #last-img {
   width: 45%;
-  left: 45rem;
+  left: 42rem;
   height: auto;
-  bottom: 21rem;
+  bottom: 23rem;
   position: relative;
   object-fit: cover;
   border-radius: 1.3rem;

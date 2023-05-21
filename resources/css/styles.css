@@ -32,7 +32,7 @@ nav {
 }
 
 .logo {
-  color: #c8a184;
+  color: #806c59;
   font-size: 1.5rem;
   font-style: italic;
   padding: 0 1rem;
@@ -251,7 +251,7 @@ nav a:hover:after {
 
 .slide-heading {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 37.5rem;
   width: 100%;
   padding: 10px;
@@ -307,6 +307,7 @@ nav a::before {
   margin-top: -5rem;
   background-color: #eedcce;
   padding: 2.6rem;
+  display: flex;
 }
 
 .white-background {
@@ -335,4 +336,49 @@ nav a::before {
   margin-bottom: 0;
 }
 
+.images-3 {
+  position: relative;
+  bottom: 23rem;
+  left: 48rem;
+}
 
+#img-1,
+#img-2,
+#img-3 {
+  width: 15%;
+  height: auto;
+  transition: all 0.4s;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+  border-radius: 1rem;
+}
+
+#img-1:hover,
+#img-2:hover,
+#img-3:hover {
+  transform: scale(1.1);
+}
+
+#img-1 {
+  position: relative;
+  top: 5rem;
+  z-index: 43;
+}
+
+#img-2 {
+  position: relative;
+  top: 3rem;
+  right: 3rem;
+}
+
+#img-3 {
+  position: relative;
+  top: 5rem;
+  right: 8rem;
+}
+
+footer {
+  margin-top: -14rem;
+}

@@ -245,3 +245,7 @@ hr {
   object-fit: cover;
   border-radius: 1.3rem;
 }
+
+footer {
+  margin-top: -20rem;
+}
