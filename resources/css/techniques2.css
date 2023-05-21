@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+  position: relative;
+  right: 10rem;
+}
+
+.mainimgs {
+  height: auto;
+  width: 13%;
+  position: relative;
+  display: flex;
+  bottom: 30rem;
+  margin-left: 44rem;
+  gap: 1rem;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.page2-1,
+.page2-2,
+.page2-3,
+.page2-4,
+.page2-1,
+.page2-5,
+.page2-6,
+.page2-7,
+.page2-8 {
+  transition: all 0.4s;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 4rem;
+  object-fit: cover;
+  border-radius: 1.3rem;
+}
+
+.page2-1:hover,
+.page2-2:hover,
+.page2-3:hover,
+.page2-4:hover,
+.page2-1:hover,
+.page2-5:hover,
+.page2-6:hover,
+.page2-7:hover,
+.page2-8:hover {
+  transform: scale(1.1);
+}
+
+.page2-1 {
+  position: relative;
+  bottom: 4rem;
+  left: 1.7rem;
+}
+
+.page2-2 {
+  position: relative;
+  top: 2rem;
+  left: 30rem;
+}
+
+.page2-3 {
+  position: relative;
+  top: 14rem;
+  right: 22rem;
+}
+
+.page2-4 {
+  position: relative;
+  right: 23rem;
+  top: 1rem;
+}
+
+.page2-5 {
+  position: relative;
+  right: 34rem;
+  top: 19rem;
+}
+
+.page2-6 {
+  position: relative;
+  right: 34rem;
+  bottom: 5rem;
+}
+
+.page2-7 {
+  position: relative;
+  right: 46rem;
+  top: 11rem;
+}
+
+.page2-8 {
+  position: relative;
+  right: 46rem;
+  top: 19rem;
+}
+
+.heading {
+  position: relative;
+  top: 7rem;
+  right: 3rem;
+  margin-bottom: 0;
+  font-size: 60px;
+  color: #806c59;
+  z-index: 65;
+}
+
+.heading2 {
+  position: relative;
+  left: 28rem;
+  top: 4rem;
+  font-size: 60px;
+  color: #eedcce;
+  z-index: 65;
+  font-weight: bold;
+}
+
+.maindesc {
+  color: #b69882;
+  position: relative;
+  top: 0rem;
+  font-size: 16px;
+  padding-top: 3rem;
+  right: 4rem;
+  z-index: 30;
+  padding-bottom: 40px;
+  line-height: 1.4rem;
+}
+
+.heading,
+.maindesc {
+  /*background-color: #f7e5d7;*/
+  border-radius: 1rem;
+  margin-left: 18%;
+  margin-right: 50%;
+  padding-left: 20px;
+  position: relative;
+}
+
+.main-part {
+  position: absolute;
+  top: 51rem;
+  width: 90%;
+  height: 40rem;
+  right: 4rem;
+  padding: 0;
+}
+
+.main-part li {
+  list-style: none;
+  position: relative;
+  width: 16.666%;
+  height: 100%;
+  border-right: 1px solid #1a1714;
+  float: left;
+  box-sizing: border-box;
+  transition: 0.5s;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.main-part li:nth-child(1) {
+  background: url(../images/page3/page3-1.jpg);
+  background-size: cover;
+  background-position: left;
+  border-radius: 1rem;
+}
+
+.main-part li:nth-child(2) {
+  background: url(../images/page3/page3-2.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.main-part li:nth-child(3) {
+  background: url(../images/page3/page3-3.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.main-part li:nth-child(4) {
+  background: url(../images/page3/page3-4.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.main-part li:nth-child(5) {
+  background: url(../images/page3/page3-5.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.main-part li:nth-child(6) {
+  background: url(../images/page3/page3-6.jpg);
+  background-size: cover;
+  background-position: left;
+}
+.main-part:hover li {
+  width: 10%;
+}
+
+.main-part li:hover {
+  width: 50%;
+}
+
+.main-part li .content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.main-part li:hover .content {
+  bottom: 0;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+.last-box {
+  position: relative;
+  top: 36rem;
+  padding: 2rem;
+  border-top-color: #eedcce;
+  padding-bottom: 0;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 90px;
+  background-color: #806c59;
+}
+#last-heading {
+  font-size: 40px;
+  color: #806c59;
+}
+
+#last-text {
+  width: 45%;
+  color: #806c59;
+}
+
+#last-img {
+  width: 45%;
+  left: 45rem;
+  height: auto;
+  bottom: 21rem;
+  position: relative;
+  object-fit: cover;
+  border-radius: 1.3rem;
+}
