@@ -86,3 +86,7 @@ nav a:after {
 nav a:hover:after {
   width: 100%;
 }
+
+footer {
+  margin-top: 20rem;
+}
